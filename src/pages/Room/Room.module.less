@@ -1,0 +1,114 @@
+.bg {
+    height: 1000px;
+    background: #dcdcdc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    height: 850px;
+}
+
+.gutter_box {
+    height: 800px;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    opacity: 0.99;
+    .sub_title {
+        height: 35px;
+        background-color: black;
+        color: white;
+        font-size: 22px;
+    }
+    .cards {
+        height:80px;
+        display: flex;
+        .card {
+            margin: 10px;
+        }
+    }
+    .card_detail1 {
+        background: #dcdcdc;
+        display: flex;
+        margin: 2px;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 5px gray;
+        .card {
+            margin: 10px;
+        }
+    }
+    .card_detail12 {
+        background: #dcdcdc;
+        margin: 2px;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 5px gray;
+        .detail_panel {
+            width: 350px;
+            background-color: lightblue;
+        }
+    }
+
+    .chat {
+        height: 700px;
+        background: #dcdcdc;
+        margin: 2px;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 5px gray;
+        .chat_list {
+            height: 450px;
+            background: white;
+            overflow: auto;
+            padding: 2px;
+        }
+        .chat_functions {
+            height: 250px;
+            background: #b6b6b6;
+            .chat_box {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                .chat_input {
+                    height: 230px;
+                    width: 500px;
+                    background: white;
+                    display: flex;
+                    margin: 10px;
+                }
+                .chat_send {
+                    margin-top: 205px;
+                    margin-right: 10px;
+                    display: flex;
+                }
+            }
+
+        }
+    }
+
+    .room_functions {
+        height: 700px;
+        background: #dcdcdc;
+        margin: 2px;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 5px gray;
+        .operations {
+            margin-top: 30px;
+        }
+        .roomUsers {
+            height: 500px;
+            width: 100%;
+            background: white;
+            margin: 5px;
+        }
+    }
+}
